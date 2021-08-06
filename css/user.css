@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(to right bottom, #3d3e3f 50%, #141414 50%) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: #131313;
+    min-height: 8vh;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    border-bottom: 3px solid white;
+    
+}
+.hr{
+    border-top: 2px solid white;
+}
+.right_content{
+    background-image: linear-gradient(to right, #131313fa , #070707c5);
+}
+.loginform{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10vh;
+    padding: 20px;
+    
+}
+.loginform label{
+    font-weight: 600;
+}
+.loginform label::after{
+    content: "*";
+    color: red;
+}
+.sidebar{
+    min-height: 92vh;
+    background-color: #1a1a1a;
+    border-right: 3px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    background: linear-gradient(to right bottom, #212222 50%, #141414 50%) !important;
+    top: 8vh;
+    
+    z-index: 1; /* Stay on top */
+   
+ 
+}
+.sidebar .bt {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #414141;
+    color: white;
+  
+}
+.sidebar .bt:hover{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #161616;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+   transition:cubic-bezier(1, 0, 0, 1) 0.6s;
+}
+.header_right{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+   
+}
+
+.b1{
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+color: white;
+min-height: 250px;
+align-items: center;
+
+padding: 10px;
+}
+.b2{
+    background: linear-gradient(to left bottom, #2f3441 50%, #212531 50%);
+color: white;
+min-height: 250px;
+align-items: center;
+padding: 10px;
+}
+.b3{
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+color: white;
+min-height: 250px;
+align-items: center;
+
+padding: 10px;
+}
+#latest_jobs{
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+   border: 2px solid #ffffff;
+}
+#latest_jobs p{
+    max-width: 700px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: white;
+}
+#latest_jobs a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+}
+#latest_jobs a:hover{
+    color: #44b5c7;
+}
+#latest_jobs .btn{
+    font-size: 18px;
+}
+.job_details{
+
+    margin-bottom: 1%;
+    align-items: center;
+  
+    background-color: #468f9b;
+    color: white;
+}
+.job_detailsh{
+    background-color: #1c4d55;
+    color: white;
+}
+.header_profile{
+    min-height: 80vh;
+    max-height: 80vh;
+    writing-mode:vertical-rl;
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    align-items: center;
+    color: white;
+  
+}
+.header_profile h3{
+    font-size: 60px;
+}
+#jobdetails{
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+#nav_bt{
+    display: none;
+}
+.right_side{
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    padding: 50px;
+    color: white;
+}
+.right_side img{
+    border: 3px solid white;
+}
+.right_side h4{
+    border: 1px solid white;
+   
+    
+}
+#updateform , #updatepic{
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .sidebar{
+        display: none;
+    }
+    #nav_bt{
+        display: block;
+    }
+    #box h2{
+        font-size: 12px;
+    }
+  
+  }

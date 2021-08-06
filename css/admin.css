@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginform {
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10vh;
+    padding: 20px;
+}
+
+.loginform label {
+    font-weight: 600;
+}
+
+.loginform label::after {
+    content: "*";
+    color: red;
+}
+
+.header {
+    background-color: #1b1b1b;
+    min-height: 8vh;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.s1{
+    background-color: #046582;
+    padding: 30px;
+    color: white;
+}
+.s2{
+    background-color: rgb(233, 233, 233);
+    padding: 30px;
+    color: rgb(11, 139, 179);
+}
+.s3{
+    min-height: 50px;
+    background-color: rgb(216, 214, 214);
+}
+.cards{
+    border: 2px solid rgba(0, 0, 0, 0.445);
+}
+.job_panel{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.job_pannel{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+}
+.header_home{
+    background-color: #046582;
+    color: white;
+    padding: 10px;
+}
+.pie{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+}
+#piechart{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: #046582;
+}
+#companies , #clients , #chart , #manage_admins , #add_admin {
+    display: none;
+}
+#detail_form{
+    background: linear-gradient(to right bottom, #2c2c2c 50%, #363636 50%);
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+}
+#detail_form img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+}
+@media only screen and (max-width: 800px){
+    .cards h2{
+    font-size: 12px;
+}
+}
